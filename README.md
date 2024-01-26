@@ -7,12 +7,19 @@
 
 ### Instalación de dependencias
 ```sh
-yarn or npm i  
+yarn 
+```
+```sh
+npm i 
 ```
 ### Levantamiento del blog
 
 ```sh
-yarn start or npm run start
+yarn start
+```
+
+```sh
+npm run start
 ```
 
 ### variables de entorno
