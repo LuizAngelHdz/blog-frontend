@@ -3,7 +3,6 @@ import { Home } from "./pages/Home";
 import { BasicLayout, FullScreenLayout } from "./Layout";
 import { Routes, Route } from "react-router-dom";
 import { PostDetail } from "./pages/PostDetail/PostDetail";
-import { CreatePost } from "./pages/CreatePost/CreatePost";
 import { AdminPost } from "./pages/AdminPost";
 
 function App() {

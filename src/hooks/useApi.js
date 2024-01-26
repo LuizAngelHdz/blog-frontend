@@ -5,7 +5,7 @@ const useApi = ({ endpoint, method }) => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const backendUrl = "http://localhost:3008";
+  const backendUrl = process.env.REACT_APP_MAIN_BACKEND_URL;
 
   const handleFetch = async (properties) => {
     setLoading(true);
