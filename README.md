@@ -36,5 +36,5 @@ yarn start or npm run start
 
 
 
-> [!Precaución]
+> [!CAUTION]
 > Crear previamente la base de datos y tablas utilizadas en el  [proyecto de back end](https://es.react.dev/), para su correcto funcionamiento
