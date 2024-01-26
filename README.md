@@ -30,11 +30,11 @@ yarn start or npm run start
 | /blogs   | DELETE | End point utilizado para eliminar un post                      |
 
 ## URLS
- Lista de los post creados: [Home](http://blog-exam.s3-website-us-east-1.amazonaws.com/) 
- Detalle de algun post seleccionado: [post](http://blog-exam.s3-website-us-east-1.amazonaws.com/post/1)
-  Administracion de los post: [createPost](http://blog-exam.s3-website-us-east-1.amazonaws.com/createPost)
+- Lista de los post creados: [Home](http://blog-exam.s3-website-us-east-1.amazonaws.com/) 
+- Detalle de algun post seleccionado: [post](http://blog-exam.s3-website-us-east-1.amazonaws.com/post/1)
+ - Administracion de los post: [createPost](http://blog-exam.s3-website-us-east-1.amazonaws.com/createPost)
 
 
 
-> [!CAUTION]
+> [!Precaución]
 > Crear previamente la base de datos y tablas utilizadas en el  [proyecto de back end](https://es.react.dev/), para su correcto funcionamiento
