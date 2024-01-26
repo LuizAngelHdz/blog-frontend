@@ -6,6 +6,8 @@ import { useStyles } from "./styles";
 
 export const Home = () => {
   const classes = useStyles();
+  /* The code `const [getList, data] = useApi({ method: "get", endpoint: "/blogs" });` is using a custom
+hook called `useApi` to make an API request to retrieve a list of blogs. */
   const [getList, data] = useApi({
     method: "get",
     endpoint: "/blogs",

@@ -8,18 +8,26 @@ import { useStyles } from "./styles";
 
 export const FormArticle = ({ initalValues, onSubmitForm }) => {
   const classes = useStyles();
+  /* The code snippet is defining a validation schema using the `yup` library. */
   const validationSchema = yup.object({
     title: yup.string("Ingresa una cadena").required("El campo es requerido"),
     author: yup.string("Ingresa una cadena").required("El campo es requerido"),
     content: yup.string("Ingresa una cadena").required("El campo es requerido"),
   });
 
+  /* The code snippet is using the `useFormik` hook from the `formik` library to create a formik
+instance. */
   const formik = useFormik({
     initialValues: initalValues,
     validationSchema,
     onSubmit: (values) => onSubmitForm({ ...values, date: createDate() }),
   });
 
+  /**
+   * The `createDate` function returns the current date in the format "YYYY-MM-DD".
+   * @returns The function `createDate` returns a string in the format "YYYY-MM-DD", representing the
+   * current date.
+   */
   const createDate = () => {
     var date = new Date();
     var day = date.getDate().toString().padStart(2, "0");
