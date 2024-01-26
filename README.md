@@ -6,18 +6,24 @@
 
 
 ### Instalación de dependencias
+
+### Yarn
+
 ```sh
 yarn 
 ```
+
+### NPM
 ```sh
 npm i 
 ```
-### Levantamiento del blog
+## Levantamiento del blog
 
+### Yarn
 ```sh
 yarn start
 ```
-
+### NPM
 ```sh
 npm run start
 ```
